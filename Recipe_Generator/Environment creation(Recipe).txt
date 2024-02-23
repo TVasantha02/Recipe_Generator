@@ -1,0 +1,8 @@
+1) Open vscode 
+2) In the menu bar select terminal
+3) In the terminal use git bash
+4) Create environment using following commands
+   $conda create ./envs python=3.10 -y
+   $conda activate envs/
+   $pip install -r reqs.txt
+5) streamlit run main.py
